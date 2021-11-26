@@ -114,6 +114,28 @@ header .logo {
   background: #188ce8;
 }
 
+.details h3 {
+  font-size: 14px;
+  line-height: calc(16 / 14);
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--main-color);
+}
+.details p {
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+  color: #757575;
+}
+.second-title {
+  font-weight: bold;
+  font-size: 36px;
+  line-height: calc(42 / 36);
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #212121;
+}
+
 .portfolio-btn {
   display: flex;
   justify-content: center;
@@ -122,21 +144,22 @@ header .logo {
 .portfolio-btn button {
   padding: 6px 22px;
   border-radius: 4px;
-  background: var(--active-color);
+  background: #f5f4fa;
   box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
     0px 2px 2px rgba(0, 0, 0, 0.12);
   font-weight: 500;
   font-size: 16px;
   line-height: calc(26 / 16);
   letter-spacing: 0.03em;
-  color: var(--white-color);
+  color: var(--main-color);
   width: auto;
   cursor: pointer;
 }
 
 .portfolio-btn button:hover,
 .portfolio-btn button:focus {
-  background: #188ce8;
+  background: var(--active-color);
+  color: var(--white-color);
 }
 
 /* footer */
